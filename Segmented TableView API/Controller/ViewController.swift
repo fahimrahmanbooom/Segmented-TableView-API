@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var url = "https://newsapi.org/v2/everything?q=apple&from=2019-12-23&to=2019-12-23&sortBy=popularity&apiKey=9a5201da73f74c62ae35a85be208fc70"
+    var url = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9a5201da73f74c62ae35a85be208fc70"
     
     var newsData = [Articles]()
     var currentTableView: Int?
@@ -40,14 +40,14 @@ class ViewController: UIViewController {
         currentTableView = sender.selectedSegmentIndex
         
         if currentTableView == 0 {
-            url = "https://newsapi.org/v2/everything?q=apple&from=2019-12-23&to=2019-12-23&sortBy=popularity&apiKey=9a5201da73f74c62ae35a85be208fc70"
+            url = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9a5201da73f74c62ae35a85be208fc70"
             
             getDataFromServer()
             scrollToTop()
             
         }
         if currentTableView == 1 {
-            url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=9a5201da73f74c62ae35a85be208fc70"
+            url = "https://newsapi.org/v2/everything?q=apple&from=2019-12-23&to=2019-12-23&sortBy=popularity&apiKey=9a5201da73f74c62ae35a85be208fc70"
             
             getDataFromServer()
             scrollToTop()

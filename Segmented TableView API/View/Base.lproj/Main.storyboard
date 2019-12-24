@@ -19,8 +19,8 @@
                                 <rect key="frame" x="37.666666666666657" y="59" width="300" height="32"/>
                                 <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <segments>
-                                    <segment title="Apple"/>
-                                    <segment title="Bitcoin"/>
+                                    <segment title="BBC News"/>
+                                    <segment title="Apple News"/>
                                     <segment title="NY Times"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
