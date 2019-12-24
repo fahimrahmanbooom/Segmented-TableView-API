@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA2E9F16F5DCFF48D5F32F9 /* Pods_Segmented_TableView_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C903992D183EF7F8764BE2F /* Pods_Segmented_TableView_API.framework */; };
+		FF3E41A423B1E9EA009387DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41A323B1E9EA009387DC /* AppDelegate.swift */; };
+		FF3E41A623B1E9EA009387DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41A523B1E9EA009387DC /* SceneDelegate.swift */; };
+		FF3E41A823B1E9EA009387DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41A723B1E9EA009387DC /* ViewController.swift */; };
+		FF3E41AB23B1E9EA009387DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3E41A923B1E9EA009387DC /* Main.storyboard */; };
+		FF3E41AD23B1E9EB009387DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3E41AC23B1E9EB009387DC /* Assets.xcassets */; };
+		FF3E41B023B1E9EB009387DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3E41AE23B1E9EB009387DC /* LaunchScreen.storyboard */; };
+		FF3E41B823B1F75A009387DC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41B723B1F75A009387DC /* TableViewCell.swift */; };
+		FF3E41BF23B20E0A009387DC /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41BE23B20E0A009387DC /* Articles.swift */; };
+		FF3E41C123B20E10009387DC /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41C023B20E10009387DC /* Base.swift */; };
+		FF3E41C523B290AC009387DC /* GetTextDataFromServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41C423B290AC009387DC /* GetTextDataFromServer.swift */; };
+		FF3E41C723B29126009387DC /* GetImagesFromServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41C623B29126009387DC /* GetImagesFromServer.swift */; };
+		FF3E41C923B291B6009387DC /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E41C823B291B6009387DC /* TableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C903992D183EF7F8764BE2F /* Pods_Segmented_TableView_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segmented_TableView_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		893E50A7B33E2A1D8345EA75 /* Pods-Segmented TableView API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segmented TableView API.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segmented TableView API/Pods-Segmented TableView API.release.xcconfig"; sourceTree = "<group>"; };
+		AE9F9D792F6E8CD5DE52753C /* Pods-Segmented TableView API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segmented TableView API.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Segmented TableView API/Pods-Segmented TableView API.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3E41A023B1E9EA009387DC /* Segmented TableView API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segmented TableView API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3E41A323B1E9EA009387DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3E41A523B1E9EA009387DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF3E41A723B1E9EA009387DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3E41AA23B1E9EA009387DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3E41AC23B1E9EB009387DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3E41AF23B1E9EB009387DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3E41B123B1E9EB009387DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3E41B723B1F75A009387DC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FF3E41BE23B20E0A009387DC /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		FF3E41C023B20E10009387DC /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		FF3E41C423B290AC009387DC /* GetTextDataFromServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTextDataFromServer.swift; sourceTree = "<group>"; };
+		FF3E41C623B29126009387DC /* GetImagesFromServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImagesFromServer.swift; sourceTree = "<group>"; };
+		FF3E41C823B291B6009387DC /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3E419D23B1E9EA009387DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA2E9F16F5DCFF48D5F32F9 /* Pods_Segmented_TableView_API.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CCB21D99C4CC6C557962FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE9F9D792F6E8CD5DE52753C /* Pods-Segmented TableView API.debug.xcconfig */,
+				893E50A7B33E2A1D8345EA75 /* Pods-Segmented TableView API.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB9CFAE1B5FD6F6AAB78E042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C903992D183EF7F8764BE2F /* Pods_Segmented_TableView_API.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF3E419723B1E9EA009387DC = {
+			isa = PBXGroup;
+			children = (
+				FF3E41A223B1E9EA009387DC /* Segmented TableView API */,
+				FF3E41A123B1E9EA009387DC /* Products */,
+				47CCB21D99C4CC6C557962FB /* Pods */,
+				DB9CFAE1B5FD6F6AAB78E042 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3E41A123B1E9EA009387DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E41A023B1E9EA009387DC /* Segmented TableView API.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3E41A223B1E9EA009387DC /* Segmented TableView API */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E41CA23B2920D009387DC /* Model */,
+				FF3E41CB23B29218009387DC /* View */,
+				FF3E41CD23B29237009387DC /* Controller */,
+				FF3E41CE23B29289009387DC /* Support */,
+				FF3E41AC23B1E9EB009387DC /* Assets.xcassets */,
+				FF3E41B123B1E9EB009387DC /* Info.plist */,
+			);
+			path = "Segmented TableView API";
+			sourceTree = "<group>";
+		};
+		FF3E41CA23B2920D009387DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E41C023B20E10009387DC /* Base.swift */,
+				FF3E41BE23B20E0A009387DC /* Articles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF3E41CB23B29218009387DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E41A923B1E9EA009387DC /* Main.storyboard */,
+				FF3E41AE23B1E9EB009387DC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF3E41CD23B29237009387DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E41A723B1E9EA009387DC /* ViewController.swift */,
+				FF3E41C823B291B6009387DC /* TableView.swift */,
+				FF3E41B723B1F75A009387DC /* TableViewCell.swift */,
+				FF3E41C423B290AC009387DC /* GetTextDataFromServer.swift */,
+				FF3E41C623B29126009387DC /* GetImagesFromServer.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF3E41CE23B29289009387DC /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E41A323B1E9EA009387DC /* AppDelegate.swift */,
+				FF3E41A523B1E9EA009387DC /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3E419F23B1E9EA009387DC /* Segmented TableView API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3E41B423B1E9EB009387DC /* Build configuration list for PBXNativeTarget "Segmented TableView API" */;
+			buildPhases = (
+				002DE91DC9F7435FFCAD38AC /* [CP] Check Pods Manifest.lock */,
+				FF3E419C23B1E9EA009387DC /* Sources */,
+				FF3E419D23B1E9EA009387DC /* Frameworks */,
+				FF3E419E23B1E9EA009387DC /* Resources */,
+				6E24AD2737E344FEF14384BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segmented TableView API";
+			productName = "Segmented TableView API";
+			productReference = FF3E41A023B1E9EA009387DC /* Segmented TableView API.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3E419823B1E9EA009387DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fahim Rahman";
+				TargetAttributes = {
+					FF3E419F23B1E9EA009387DC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FF3E419B23B1E9EA009387DC /* Build configuration list for PBXProject "Segmented TableView API" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3E419723B1E9EA009387DC;
+			productRefGroup = FF3E41A123B1E9EA009387DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3E419F23B1E9EA009387DC /* Segmented TableView API */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3E419E23B1E9EA009387DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E41B023B1E9EB009387DC /* LaunchScreen.storyboard in Resources */,
+				FF3E41AD23B1E9EB009387DC /* Assets.xcassets in Resources */,
+				FF3E41AB23B1E9EA009387DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002DE91DC9F7435FFCAD38AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Segmented TableView API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E24AD2737E344FEF14384BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Segmented TableView API/Pods-Segmented TableView API-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segmented TableView API/Pods-Segmented TableView API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3E419C23B1E9EA009387DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E41A823B1E9EA009387DC /* ViewController.swift in Sources */,
+				FF3E41BF23B20E0A009387DC /* Articles.swift in Sources */,
+				FF3E41B823B1F75A009387DC /* TableViewCell.swift in Sources */,
+				FF3E41A423B1E9EA009387DC /* AppDelegate.swift in Sources */,
+				FF3E41A623B1E9EA009387DC /* SceneDelegate.swift in Sources */,
+				FF3E41C923B291B6009387DC /* TableView.swift in Sources */,
+				FF3E41C723B29126009387DC /* GetImagesFromServer.swift in Sources */,
+				FF3E41C123B20E10009387DC /* Base.swift in Sources */,
+				FF3E41C523B290AC009387DC /* GetTextDataFromServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF3E41A923B1E9EA009387DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3E41AA23B1E9EA009387DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3E41AE23B1E9EB009387DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3E41AF23B1E9EB009387DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3E41B223B1E9EB009387DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3E41B323B1E9EB009387DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3E41B523B1E9EB009387DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9F9D792F6E8CD5DE52753C /* Pods-Segmented TableView API.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Segmented TableView API/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Segmented-TableView-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF3E41B623B1E9EB009387DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893E50A7B33E2A1D8345EA75 /* Pods-Segmented TableView API.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Segmented TableView API/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Segmented-TableView-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3E419B23B1E9EA009387DC /* Build configuration list for PBXProject "Segmented TableView API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3E41B223B1E9EB009387DC /* Debug */,
+				FF3E41B323B1E9EB009387DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3E41B423B1E9EB009387DC /* Build configuration list for PBXNativeTarget "Segmented TableView API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3E41B523B1E9EB009387DC /* Debug */,
+				FF3E41B623B1E9EB009387DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3E419823B1E9EA009387DC /* Project object */;
+}
